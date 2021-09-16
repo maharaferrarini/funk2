@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="yi!lU,zGUeo1H2;17|8m" x="0" y="0"/><block type="device_forever" id="(^*xOdrA76nYj)?J*h{u" x="245" y="18"><statement name="HANDLER"><block type="radio_set_group" id="||N![WV:CZTYB)N-e!Bs"><value name="ID"><shadow type="math_number_minmax" id="7uPHuH3%~}F^tn}w,?a~"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">7</field></shadow></value><next><block type="device_show_leds" id="[.tDfvBwHd?TA8.:wDLd"><field name="LEDS">`
-        # . . . . 
-        # # # . . 
-        . . # . . 
-        . . # # # 
-        . . . . #
-        `</field></block></next></block></statement></block><block type="radio_datagram_send" id="HX^{m8:[Bnel.U]dXqV[" disabled="true" x="440" y="49"><value name="value"><shadow type="math_number" id="h0[)5Cv#L%OZz|]rJ-yM" disabled="true"><field name="NUM">0</field></shadow></value></block><block type="device_show_leds" id="F9sd^L)*^F{2~n2kqQng" disabled="true" x="-9" y="203"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="yi!lU,zGUeo1H2;17|8m" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="||N![WV:CZTYB)N-e!Bs"><value name="ID"><shadow type="math_number_minmax" id="7uPHuH3%~}F^tn}w,?a~"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">7</field></shadow></value></block></statement></block><block type="device_forever" id="(^*xOdrA76nYj)?J*h{u" x="287" y="12"/><block type="device_show_leds" id="F9sd^L)*^F{2~n2kqQng" disabled="true" x="543" y="32"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></xml>
+        `</field><next><block type="radio_datagram_send" id="HX^{m8:[Bnel.U]dXqV[" disabled="true"><value name="value"><shadow type="math_number" id="h0[)5Cv#L%OZz|]rJ-yM" disabled="true"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="[.tDfvBwHd?TA8.:wDLd" disabled="true"><field name="LEDS">`
+        # . . . . 
+        # # # . . 
+        . . # . . 
+        . . # # # 
+        . . . . #
+        `</field></block></next></block></next></block><block type="device_button_event" id="ops[BN1zGP83e6_g:C~R" x="95" y="152"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="#urF~6IySWJ%m+pK:IR2"><value name="msg"><shadow type="text" id="=/BQzkK!}X{c}[J4pSB|"><field name="TEXT">hihi</field></shadow></value></block></statement></block></xml>
